@@ -17,7 +17,7 @@
 
 //   }
 
-console.log(players[2]);
+// console.log(players[2]);
 
 
 function myFunction() {
