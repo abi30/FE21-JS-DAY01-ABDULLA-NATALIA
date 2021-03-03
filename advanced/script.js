@@ -107,7 +107,7 @@ var temp = new Array();
 
 let n=temp.length;
 console.log(n);
-
+var string="";
 var new_temp=[temp,
             temp,
             temp,
@@ -116,22 +116,16 @@ var new_temp=[temp,
 
 console.log(new_temp);
 for(let i= 0;i<n;i++){
-
   for(let j=i;j<i+1;j++){
-    console.log("\t");
-    console.log("\t"+(new_temp[i][j])+"\n");
-   
-
-   
-  }
-  console.log("\t");
- 
+    string += "\t";
+    console.log(string+(new_temp[i][j])+"\n"); 
     
+  }
+ 
+ 
+  
 }
 
-// var twoDarray_challenge=[
-
-// ]
 
 
 
