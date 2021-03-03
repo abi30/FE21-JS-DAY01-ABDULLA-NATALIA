@@ -1,7 +1,8 @@
 
 // advanced Exercise 1 sum;
-
-
+var sum = 0;
+var multi = 0;
+var divi = 0;
 
 
 function sumFunction() {
@@ -18,7 +19,7 @@ function sumFunction() {
   var e=42;
   
   
-  var sum=a+b+c+d+e;
+  sum = a+b+c+d+e;
   console.log(sum);
 
 
@@ -37,7 +38,7 @@ function sumFunction() {
 
 function multiFunction() {
  
-   var f ='1';
+  var f ='1';
   var f=Number(f);
   console.log(typeof(f));
   var g=15;
@@ -48,7 +49,7 @@ function multiFunction() {
   console.log(typeof(i));
  
  
- var multi= f*g*h*i;
+  multi = f*g*h*i;
   console.log(multi);
 
 
@@ -64,12 +65,8 @@ function multiFunction() {
 
 
 function diviFunction() {
-  
-  var sum=116;
-  var multi=120;
 
-  
-    var divi=(multi/sum).toFixed(3);
+  var divi=(multi/sum).toFixed(3);
     
   
 
