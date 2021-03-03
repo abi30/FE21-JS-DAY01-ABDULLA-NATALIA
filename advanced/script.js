@@ -126,13 +126,23 @@ for(let i= 0;i<n;i++){
   
 }
 
+// Challenge 2 | String Manipulation
+
+var challenge_2="Properties,$a$set$of$immutable$values,$are$passed$to$a$component's$renderer$as$properties$in$its $HTML$tag.$A$component$cannot$directly$modify$any$properties$passed$to$it,$but$can$be$passed$ callback$functions$that$do$modify$values.$This$mechanism's$promise$is$expressed$as$properties $flow$down;$actions$flow$up";
 
 
 
+var challenge_2temp=new Array();
 
 
+// we use split method for string to array;
+challenge_2temp=challenge_2.split("$");
+console.log(challenge_2temp);
 
+// we use join()method for making an array to string without comma...
+var challenge_2temp=challenge_2temp.join(" ");
 
+console.log(challenge_2temp);
 
 
 
