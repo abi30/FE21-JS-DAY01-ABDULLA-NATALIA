@@ -81,4 +81,10 @@ lemon */
 var fruits_new = 'mango/cherries/kiwi/grapes/pear/peach/orange/lemon';
 var temporary = new Array();
 temporary = fruits_new.split('/');
-console.log(temporary);
+
+let n=temporary.length;
+for(let i= 0;i<n;i++){
+    console.log(temporary[i]+"\n");
+}
+// console.log(temporary[0,]+"\n");
+// console.log();
